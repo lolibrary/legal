@@ -1,8 +1,7 @@
-<p align="center"><img height="150" src="https://lolibrary.org/assets/ban1-01.png" alt="Lolibrary Logo"></p>
-
 # Lolibrary Privacy Policy
 
-Version: v1.0.1
+Version: v1.1.0
+
 Last Updated: 2018-06-02
 
 ## 1. Data We Require
@@ -42,19 +41,19 @@ We use the following subprocessors at Lolibrary:
  - Sentry - <a href="https://sentry.io" rel="external nofollow">https://sentry.io/</a>
     - Used in the event of an error when using the website, or an app.
     - Cannot opt out, though all details sent to Sentry are anonymized.
-    - [Data Processing Terms][sentry-dpa]
     - [Privacy Policy][sentry-privacy-policy]
 - Google Cloud Platform - <a href="https://cloud.google.com" rel="external nofollow">https://cloud.google.com</a>
     - Used to provide our hosting platform and most services.
     - Cannot opt-out; essential to providing our services.
-    - [Data Processing Terms][google-dpa]
-    - [EU Model Contract Clauses][google-eu-clauses]
     - [Privacy Policy][google-privacy-policy]
 - Cloudflare - <a href="https://cloudflare.com" rel="external nofollow">https://cloudflare.com</a>
     - Used to provide network connectivity to our Google Cloud Platform services.
     - Cannot opt out; access to the website depends on this entirely.
-    - [Data Processing Terms][cloudflare-dpa]
     - [Privacy Policy][cloudflare-privacy-policy]
+- Postmark (by Wildbit, LLC) - <a href="https://postmarkapp.com" rel="external nofollow">https://postmarkapp.com</a>
+    - Used to provide transactional email services
+    - You can opt out by not creating an account; when you create an account we will pass your data to Postmark in order to verify you own the email address given.
+    - [Privacy Policy][postmark-privacy-policy]
 
 ### 2.1. Analytics and Tracking
 
@@ -115,23 +114,44 @@ Under our terms of service, these submitted items are public domain or an archiv
 
 Any such items will no longer display your username next to them after your account is deleted. Instead they will show "Anonymous" (or similar) as their author.
 
-## 7. Data Processing Outside of the EU
+## 7. Right to Correct
+
+You can edit/correct all of your personal data from within your profile page while logged into the site.
+
+To change your email address, we'll require you to verify that you control the new email address once changed, by sending it a verification link to click.
+
+## 8. Data Processing Outside of the EU
 
 Lolibrary's servers are located outside of the EU (in the USA).
 
 We ensure that all of our infrastructure providers and data subprocessors comply with the US-EU Privacy Shield Framework to allow safe transfer and storage of Personal Data.
 
-## 8. Notices of Updates
+## 9. Communication
+
+We will use your email address to send you emails relating to your account that you've explicitly requested (Transactional Email).
+
+Examples of Transactional Email are:
+
+- Password Reset Emails
+- Donation Receipt Emails
+- Account Verification Emails (to add/modify your email, so we can verify it's yours)
+
+We only pass your data to our email service providers in order to send you email.
+
+### 9.1 Marketing
+
+We will only use your email (if provided) for marketing purposes with your explicit consent; we'll provide privacy notices where you can give consent to this, and not opting in will have no impact on your ability to use our website/apps.
+
+We will not share your email address with people outside of our data processors list, nor sell it to third-parties.
+
+## 10. Notices of Updates
 
 You can find previous versions of this policy, and all of our other policies, at [https://github.com/lolibrary/legal][lolibrary-legal-repo]
 
-[cloudflare-dpa]: https://www.cloudflare.com/media/pdf/cloudflare-customer-dpa-20180402.pdf
+[postmark-privacy-policy]: https://wildbit.com/privacy-policy
 [cloudflare-cookie-policy]: https://www.cloudflare.com/cookie-policy/
 [cloudflare-privacy-policy]: https://www.cloudflare.com/privacypolicy/
-[sentry-dpa]: https://sentry.io/legal/dpa/1.0.0/
 [sentry-privacy-policy]: https://sentry.io/privacy/
 [google-privacy-policy]: https://www.google.com/intl/en/policies/privacy/
-[google-dpa]: https://cloud.google.com/terms/data-processing-terms
-[google-eu-clauses]: https://cloud.google.com/terms/eu-model-contract-clause
 [google-security]: https://cloud.google.com/security/
 [lolibrary-legal-repo]: https://github.com/lolibrary/legal
